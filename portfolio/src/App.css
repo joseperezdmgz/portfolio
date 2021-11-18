@@ -6,16 +6,11 @@ html {
 }
 .about-img {
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 20px;
 }
-.about-img {
-  -webkit-animation: tracking-in-expand-fwd 0.8s
-    cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
-}
+
 .name {
   -webkit-animation: tracking-in-expand-fwd 0.8s
     cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -59,11 +54,15 @@ h2.name {
   }
 }
 .about-text {
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: rgb(200, 203, 209);
 }
 .contact {
   height: 50px;
+}
+.contact > a {
+  padding: 5px;
 }
 .contact-link {
   width: 100%;
@@ -71,14 +70,29 @@ h2.name {
 }
 
 .contact-logo {
-  width: 50px;
+  width: 30px;
   height: 50px;
   color: rgb(200, 203, 209);
 }
 .contact-logo:hover {
-  background-color: red;
+  color: rgb(73, 172, 197);
   border-radius: 100px;
   transition: 500ms;
+}
+.job-link {
+  margin: 5px;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.job {
+  margin: 10px;
+  width: 40%;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 .skills {
   color: white;
@@ -89,7 +103,19 @@ h2.name {
 .skills > ul > li {
   list-style: none;
 }
+.skills > ul {
+  padding: 0px;
+}
 .skills-tittle {
   color: white;
   font-weight: bold;
+}
+@media (max-width: 600px) {
+  .jobs-container {
+    flex-direction: column;
+  }
+  .job {
+    margin: 10px;
+    width: auto;
+  }
 }

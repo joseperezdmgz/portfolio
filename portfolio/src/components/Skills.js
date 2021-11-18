@@ -7,7 +7,7 @@ function Skills() {
         <p className="skills-tittle">Desarrollo Front-end</p>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Reacr.js</li>
+        <li>React.js</li>
         <li>JS</li>
       </ul>
 
