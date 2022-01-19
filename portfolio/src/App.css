@@ -3,6 +3,7 @@ html {
   text-align: center;
   background-color: rgb(30, 41, 54);
   color: white;
+  scroll-behavior: smooth;
 }
 .about-img {
   border-radius: 100%;
@@ -16,6 +17,10 @@ html {
     cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
     both;
+  text-underline-position: under;
+  text-decoration: underline #64152e;
+}
+.name:hover {
 }
 h2.name {
   color: rgb(200, 203, 209);
@@ -53,6 +58,34 @@ h2.name {
     opacity: 1;
   }
 }
+.navbar {
+  font-weight: 600;
+}
+
+.navbar-ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+.navbar-li {
+  text-transform: uppercase;
+  width: 25%;
+}
+.navbar-li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-li a:hover {
+  color: #edfc56;
+  text-underline-position: under;
+  text-decoration: underline #64152e;
+
+  background-color: #21242d;
+}
+.nav {
+  color: #edfc56;
+}
+
 .about-text {
   margin-left: 50px;
   margin-right: 50px;
@@ -75,7 +108,7 @@ h2.name {
   color: rgb(200, 203, 209);
 }
 .contact-logo:hover {
-  color: rgb(73, 172, 197);
+  color: #edfc56;
   border-radius: 100px;
   transition: 500ms;
 }
@@ -117,5 +150,8 @@ h2.name {
   .job {
     margin: 10px;
     width: auto;
+  }
+  .navbar {
+    display: none;
   }
 }
