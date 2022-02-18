@@ -6,10 +6,10 @@ function About() {
     <>
       <div>
         <div>
-          <img className="about-img" src="foto.jpeg" />
+          <img className="about-img" src="foto.jpeg" alt="fotoperfil" />
         </div>
-        <h2>Hola, soy</h2>
         <h1 className="name">Jose Pérez Domínguez</h1>
+        <h2>Developer</h2>
         <div className="contact">
           <a
             className="contact-link"
@@ -36,17 +36,15 @@ function About() {
           Sobre mí
         </h3>
       </div>
-      <p className="about-text">Soy Desarrollador web.</p>
       <p className="about-text">
-        Mi experiencia actual es formativa, pero con mucho trabajo y dedicación
-        he conseguido grandes conocimientos en React y Node. Estoy actualmente
-        en busca activa de trabajo para poder demostrar estos conocimientos y
-        poder aportar en un producto digital de éxito.
+        Actualmente estoy en busca activa de empleo. Soy una persona
+        autodidacta, siempre dispuesto a aprender. Tengo un alto sentido de la
+        responsabilidad y estoy habituado al trabajo en equipo y bajo presión.
       </p>
       <p className="about-text">
         Por otro lado, soy muy aficionado al deporte. He practicado FÚTBOL ⚽️
         durante más de 20 años y, actualmente, formo parte de la directiva de un
-        equipo local. También disfruto de las salidas en bicicleta 🚴.
+        equipo local. También disfruto de las salidas en bici 🚴.
       </p>
     </>
   );

@@ -20,7 +20,7 @@ function Jobs() {
             </a>
             <a
               className="job-link"
-              href="https://dms.licdn.com/playlist/C5605AQGU5FOrTq5LGw/mp4-640p-30fp-crf28/0/1616149263339?e=1642633200&v=beta&t=I0ZSRcAKagI2p2eaVGxiVJ8bXW14JZb3k0KzqBFr5pE"
+              href="https://vimeo.com/678697607"
               target="blank"
             >
               <AiOutlineRightCircle className="contact-logo" />
@@ -28,17 +28,51 @@ function Jobs() {
           </div>
         </div>
         <div className="job">
-          <h4 className="job-tittle">Mudanzas</h4>
+          <h4 className="job-tittle">App calculadora de resultado</h4>
           <p className="job-description">
-            Página para negocio local de mudanzas.
+            App que calcula las victorias y derrotas que lleva un equipo de
+            fútbol en la temporada. Hecha para uso en un juego de fútbol online.
           </p>
           <div className="job-links">
             <a
               className="job-link"
-              href="https://github.com/joseperezdmgz/mudanzas"
+              href="https://github.com/joseperezdmgz/App-calcular-resultados"
               target="blank"
             >
               <AiFillGithub className="contact-logo" />
+            </a>
+            <a
+              className="job-link"
+              href="https://resultadosapp.netlify.app/"
+              target="blank"
+            >
+              <AiOutlineRightCircle className="contact-logo" />
+            </a>
+          </div>
+        </div>
+        <div className="job">
+          <h4 className="job-tittle">Api con Angular</h4>
+          <p className="job-description">
+            Aplicación para Recursos Humanos con datos de una Api.
+            <br /> Te logueas con esta cuenta:
+            <br />
+            eve.holt@reqres.in
+            <br />
+          </p>
+          <div className="job-links">
+            <a
+              className="job-link"
+              href="https://github.com/joseperezdmgz/my-app"
+              target="blank"
+            >
+              <AiFillGithub className="contact-logo" />
+            </a>
+            <a
+              className="job-link"
+              href="https://prueba-angular.netlify.app/"
+              target="blank"
+            >
+              <AiOutlineRightCircle className="contact-logo" />
             </a>
           </div>
         </div>
