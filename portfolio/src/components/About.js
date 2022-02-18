@@ -42,7 +42,7 @@ function About() {
         responsabilidad y estoy habituado al trabajo en equipo y bajo presión.
       </p>
       <p className="about-text">
-        Por otro lado, soy muy aficionado al deporte. He practicado FÚTBOL ⚽️
+        Por otro lado, soy muy aficionado al deporte. He practicado fútbol ⚽️
         durante más de 20 años y, actualmente, formo parte de la directiva de un
         equipo local. También disfruto de las salidas en bici 🚴.
       </p>
