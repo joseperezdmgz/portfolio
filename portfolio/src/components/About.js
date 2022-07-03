@@ -28,7 +28,7 @@ function About() {
           <a className="contact-link" href="mailto:joseperezdmgz@gmail.com">
             <AiOutlineMail className="contact-logo" />
           </a>
-          <a className="contact-link" href="CV-Jose-Perez_Dev.pdf" download>
+          <a className="contact-link" href="jose_perez_cv.pdf" download>
             <RiDownload2Fill className="contact-logo" />
           </a>
         </div>
